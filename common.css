@@ -10,15 +10,6 @@ body {
       font-size: 1.1em;
     }
 
-.petal {
-            position: absolute;
-            background-color: #ff69b4; /* 핑크색 */
-            border-radius: 50%;
-            width: 10px;
-            height: 10px;
-            opacity: 0;
-        }
-
 p {
     font-size: 1.1em !important; 
 }
@@ -52,7 +43,7 @@ p {
 .section_05>.bank_box{
     display:inline-flex;
     width: 100%;
-    font-size: 1.1em;
+    font-size: 1.1em !important;
 }
 .section_05>.bank_box>div{
     text-align: center;
@@ -67,7 +58,7 @@ p {
     text-align: center;
     margin: auto;
     font-family: 'Gowun Batang', serif;
-    
+    font-size: 1.1em;
     border: 0;
 }
 .section_05>p{
