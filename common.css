@@ -7,7 +7,11 @@
 
 body {
       font-family: 'Gowun Batang', serif;
+      font-size: 1.2em;
     }
+p {
+    font-size: 1.2em;
+}
 
 
 .section_01,.section_02,.section_03,.section_05{
