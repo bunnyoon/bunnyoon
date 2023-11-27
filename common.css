@@ -1,0 +1,62 @@
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+body {
+      font-family: 'Gowun Batang', serif;
+    }
+
+
+.section_01,.section_02,.section_03,.section_05{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.section_02>img{
+    margin: 10px 0;
+}
+
+.section_03>p{
+    margin: 10px 0 100px 0;
+}
+
+.section_04 {
+    padding-top: 100px;
+}
+.section_04>p{
+    margin: 10px;
+}
+.section_05>img{
+    margin: 10px;
+    clear: both;
+    padding-bottom: 10px;
+}
+.section_05>.bank_box{
+    display:inline-flex;
+    width: 100%;
+}
+.section_05>.bank_box>div{
+    text-align: center;
+    width: 50%;
+}
+.section_05>.bank_box>div>.btn{
+    width:80px;
+    height: 30px;
+    background: #333;
+    color:#fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 28px;
+    margin: auto;
+    font-family: 'Gowun Batang', serif;
+    font-size: 1em;
+    border: 0;
+}
+.section_05>p{
+    width: 100%;
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
