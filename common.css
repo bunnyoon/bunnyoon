@@ -43,8 +43,8 @@ body {
     width: 50%;
 }
 .section_05>.bank_box>div>.btn{
-    width:80px;
-    height: 30px;
+    width:200px;
+    height: 100px;
     background: #333;
     color:#fff;
     border-radius: 5px;
