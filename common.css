@@ -9,6 +9,16 @@ body {
       font-family: 'Gowun Batang', serif;
       font-size: 1.1em;
     }
+
+.petal {
+            position: absolute;
+            background-color: #ff69b4; /* 핑크색 */
+            border-radius: 50%;
+            width: 10px;
+            height: 10px;
+            opacity: 0;
+        }
+
 p {
     font-size: 1.1em !important; 
 }
@@ -53,9 +63,8 @@ p {
     height: 100px;
     background: #333;
     color:#fff;
-    border-radius: 5px;
+    border-radius: 10px;
     text-align: center;
-    line-height: 28px;
     margin: auto;
     font-family: 'Gowun Batang', serif;
     
